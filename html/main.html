@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="/css/menu.css">
+
+  <link rel="stylesheet" href="/css/main-info.css">
+  <script src="https://kit.fontawesome.com/1072b393f2.js" crossorigin="anonymous"></script>
+
+  <!-- Montserrat -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
+
+  <!-- Roboto -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+
+<!-- Courgette -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+
+  <!-- Poppins -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+
+
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Restaurant</title>
+
+  <link rel="stylesheet" href="/css/general.css">
+  <link rel="stylesheet" href="/css/header.css">
+  <link rel="stylesheet" href="/css/events.css">
+</head>
+<body>
+  <div class="header-back">
+    <header>
+          <img class='logo' src="/templates/logo.png">
+        <nav class="main">
+          <ul>
+            <li><a>HOME</a></li>
+            <li><a>MENU</a></li>
+            <li><a>RESERVATION</a></li>
+            <li><a>GALLERY</a></li>
+            <li><a>ABOUT</a></li>
+            <li><a>BLOG</a></li>
+            <li><a>CONTACT</a></li>
+          </ul>
+        </nav>
+        <nav class="society">
+          <ul>
+            <li><a><i class="fa fa-tripadvisor"></i></a></li>
+            <li><a><i class="fa fa-facebook-f"></i></a></li>
+            <li><a><i class="fa fa-twitter"></i></a></li>
+            <li><a><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+    <div class="welcome-section-display">
+      <button class="array left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+      <div class='text-welcome'>
+        <h2>Welcome to</h2>
+        <h1> Ibis Restaurant</h1>
+        <button class="button-menu">LOOK MENU</button>
+      </div>
+      <button class="array right"><i class="fa fa-angle-right" aria-hidden="true"></i></button>
+    </div>
+  </div>
+
+  <dev class="welcome-info">
+    <dev class="info">
+      <h2>74 Urban Restaurant</h2>
+      <h1>WELCOME</h1>
+      <dev class="text">
+        <p>
+          "Seven" is the number of days per week during which we are happy to see our guests. The "Four" are 4 parts of the world, where ibis hotels are represented, as well as 4 countries whose cuisine can be tasted in our restaurant.
+        </p>
+        <a>OUR STORY <i class="fa-solid fa-arrow-right fa-sm"></i></a>
+      </dev>
+    </dev>
+    <div class="img-div">
+      <img class="img" src="/templates/info-img.jpg">
+    </div>
+  </dev>
+
+
+    <div class="discover-display">
+      <div class="discover-block">
+        <h3>Discover</h3>
+        <h2>OUR MENU</h2>
+        <div class="menu-block-render">
+          <!-- its better render this from the database/loop with dishes in the array -->
+           
+        <nav>
+          <ul>
+            <li><a class="menuCat breakfast">BREAKFAST</a></li>
+            <li><a class="menuCat mainMenu">MAIN MENU</a></li>
+            <li><a class="menuCat pasta">PASTA</a></l>
+            <li><a class="menuCat drinks">DRINKS</a></l>
+          </ul>
+          <div class="menu">
+             <!-- the name of the category -->
+             <h2 ></h2>
+             <ul class="menuUl">
+              
+             </ul>
+            
+          
+          </div>
+        </nav>
+        </div>
+      </div>
+    </div>
+
+
+
+  <div class="display-events">
+    <h3>Upcomming</h3>
+    <h2>EVENTS</h2>
+    <div class="carousel-events">
+      <button class="arrow-back left"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
+      <div class="current-event">
+        <img class="current-event-photo">
+        <div class="current-event-info">
+          <h3 class="current-event-name"></h3>
+          <p class="current-event-description"></p>
+          <div class="timer">
+            <div class="days">
+              <h5></h5>
+              <p>DAYS</p>
+            </div>
+            <div class="hours">
+              <h5></h5>
+              <p>HOURS</p>
+            </div>
+            <div class="min">
+              <h5></h5>
+              <p>MINUTES</p>
+            </div>
+            <div class="seconds">
+              <h5></h5>
+              <p>SECONDS</p>
+            </div>
+          </div>
+          <p class="detail"><a>VIEW DETAILS</a></p>
+        </div>
+
+      </div>
+      <button class="arrow-back right"><i class="fa fa-angle-left" aria-hidden="true"></i><</button>
+    </div>
+  </div>
+
+  <script src="/js/carousel-photo.js"></script>
+  <script src="/js/menu/dishes-data.js"></script>
+  <script src="/js/menu/menu.js"></script>
+  <script src="/js/events/carousel.js"></script>
+</body>
+</html>

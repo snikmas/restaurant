@@ -1,0 +1,46 @@
+.discover-display {
+  background-color: #C4C3B7; 
+  /* can change for a background image */
+}
+
+.discover-block {
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+
+  /* from welcome info */
+  font-size: 2.5rem;
+
+  padding-top:6rem;
+  padding-bottom:0rem;
+
+}
+
+.discover-block h3 {
+color:#D61C22;
+font-family: Courgette;
+font-weight: 400;
+font-size: 3rem;
+line-height: 5rem;
+}
+
+.discover-block h2 {
+font-size: poppins;
+font-weight: 700;
+font-size: 4rem;
+letter-spacing: 0.3rem;
+
+margin-bottom: 4rem;
+}
+
+
+.discover-block ul {
+  border:1px solid saddlebrown;
+  background-color: #FFFDED;
+}
+
+.discover-block ul li {
+  border-left:1px black solid;
+  border-right:1px black solid;
+  margin:1rem;
+}

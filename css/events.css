@@ -1,0 +1,107 @@
+.display-events {
+  padding: 6rem 4rem;
+  color:white;
+  font-size: 2rem;
+
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+}
+
+.display-events > h3 {
+  color:#D61C22;
+  font-family: Courgette;
+  font-weight: 300;
+  line-height: 5.3rem;
+
+  font-size: 3rem;
+}
+
+.display-events h2 {
+  letter-spacing: 0.43rem;
+  font-size: 5rem;
+  line-height: 5rem;
+
+  margin-bottom: 2rem;
+}
+
+.carousel-events {
+  margin-top: 4rem;
+  display: flex;
+  column-gap: 5rem;
+  justify-content: space-between;
+  
+}
+
+
+.current-event-photo {
+  width: 50%;
+  object-fit: cover;
+}
+
+.current-event {
+  display: flex;
+  flex-direction: row;
+  background-color: white;
+  width:81%;
+}
+
+.current-event-info {
+  color:black;
+  width:60%;
+}
+
+.current-event-info h3 {
+  font-family: poppins;
+  margin-top:6rem;
+  line-height: 5rem;;
+  font-weight: 400;
+  letter-spacing: 0.2rem;
+}
+
+.current-event-info p {
+  font-weight:300;
+  font-size: 1.5rem;
+  margin-left:2rem;
+  margin-right:2rem;
+}
+
+.current-event-info .detail {
+  margin-top: 7rem;
+  font-size: 1.5rem;
+  font-weight: 400;
+}
+
+.arrow-back {
+  border-radius: 50%;
+  width:6rem;
+  height:6rem;
+  margin-top: auto;
+  margin-bottom: auto;
+  
+  
+  background-color: transparent;
+  
+  
+}
+
+
+/* ------------------ timer */
+.timer {
+  display: flex;
+  margin-top:3rem;
+  margin-bottom:3rem;
+  justify-content: space-evenly;
+  margin-left: 5rem;
+  margin-right: 5rem;
+}
+
+.timer h5{
+  color:#D61C22;
+  font-size: 4.5rem;
+}
+.timer p{
+  color: #A59999;
+  font-family: Montserrat;
+  font-weight: 500;
+}
