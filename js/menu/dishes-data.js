@@ -37,3 +37,4 @@ let breakfast04 = new Dish('Sandwich with chiekcen', 350, 250, 'breakfast')
 let breakfast05 = new Dish('Cottage cheese', 350, 250, 'breakfast')
 
 export let breakfast = [breakfast01, breakfast02, breakfast03, breakfast04, breakfast05];
+export let pasta = [pasta01, pasta02, pasta03, pasta04, pasta05]
