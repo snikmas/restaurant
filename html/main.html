@@ -94,8 +94,7 @@
         <h3>Discover</h3>
         <h2>OUR MENU</h2>
         <div class="menu-block-render">
-          <!-- its better render this from the database/loop with dishes in the array -->
-           
+          <!-- would be better render this menu from databases -->
         <nav>
           <ul>
             <li><a class="menuCat breakfast">BREAKFAST</a></li>
@@ -105,12 +104,8 @@
           </ul>
           <div class="menu">
              <!-- the name of the category -->
-             <h2 ></h2>
-             <ul class="menuUl">
-              
-             </ul>
-            
-          
+             <h2></h2>
+             <div class="menuTable"></div>
           </div>
         </nav>
         </div>
@@ -151,13 +146,13 @@
         </div>
 
       </div>
-      <button class="arrow-back right"><i class="fa fa-angle-left" aria-hidden="true"></i><</button>
+      <button class="arrow-back right"><i class="fa fa-angle-left" aria-hidden="true"></i></button>
     </div>
   </div>
 
-  <script src="/js/carousel-photo.js"></script>
-  <script src="/js/menu/dishes-data.js"></script>
-  <script src="/js/menu/menu.js"></script>
-  <script src="/js/events/carousel.js"></script>
+  <script type="module" src="/js/carousel-photo.js"></script>
+  <script type="module" src="/js/menu/dishes-data.js"></script>
+  <script type="module" src="/js/menu/menu.js"></script>
+  <script type="module" src="/js/events/carousel.js"></script>
 </body>
 </html>
