@@ -20,8 +20,9 @@ welcomeArrow.forEach((arrow) => {
 
 function nextPage(next) {
   next = next == 'right' ? currentBack++ : currentBack--
-
   currentBack = currentBack > 4 ? 1 : currentBack;
+  currentBack = currentBack < 1 ? 4 : currentBack;
+
   console.log(currentBack)
 
   displayBack(currentBack)

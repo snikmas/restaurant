@@ -1,8 +1,131 @@
 .events-display {
   -webkit-transition: background-image 1s;
   background-blend-mode: darken;
-  background: rgba(0, 0, 0, 0.5) no-repeat;
-  height: 100vh;
-  border:2px salmon solid;
+  background: rgba(0, 0, 0, 0.8) no-repeat;
+  height: 90vh;
   background-position-y: center;
+
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+
+  padding-top: 90px;
+}
+
+.events-display h3 {
+  color:#ec1d25;
+  font-family: courgette;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.events-display h2 {
+  color:white;
+  font-family: poppins;
+  font-weight: 700;
+  letter-spacing: 3px;
+  font-size: 55px;
+
+}
+
+.events-flex {
+  margin-top: 60px;
+  display: flex;;
+
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.events-flex .arrow{
+  opacity: 0;
+}
+
+
+.events-display:hover .events-flex .arrow {
+  opacity: 0.6;
+  color:white;
+  transition: 0.3s;
+}
+
+.details {
+  color:rgba(0, 0, 0, 0.8);
+  font-family: montserrat;
+  margin-top:50px;
+  font-size: 14px;
+}
+
+.details:hover{
+  color:#ec1d25;
+  transition: 0.4s;
+  cursor:pointer
+}
+
+
+.events-flex button {
+  opacity: 1;
+}
+
+.event-info {
+  background-color: white;
+  display: flex;
+  border-radius: 8px;
+  width:75%;
+  margin:auto
+
+}
+
+.event-info-text {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+}
+
+.event-info-text h1 {
+  font-family: poppins;
+  font-size: 30px;
+  letter-spacing: 2px;
+  font-weight: 500;  
+}
+
+.event-info-text p {
+  align-self: center;
+  font-family: Montserrat;
+  margin:20px;
+  font-size: 15px;
+  letter-spacing: 1.2px;
+  line-height: 20px;
+  width:80%;
+}
+
+.event-timer {
+  display: flex;
+  justify-content: space-between;
+  color:#ec1d25;
+  font-size: 50px;
+  font-family: Montserrat;
+  font-weight: 700;
+  margin-top:30px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+  
+}
+
+.event-timer div {
+  display: grid;
+  row-gap: 5px;
+}
+
+.event-timer span {
+  color:#9999B2;
+  font-size: 15px;
+  font-weight: 600;
+}
+
+
+.event-info img {
+  width:50%;
+  border-top-left-radius: 8px;
+  border-bottom-left-radius: 8px;
 }
