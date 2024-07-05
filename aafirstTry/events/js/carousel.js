@@ -8,7 +8,7 @@ class Event {
   }
 }
 
-const urlPhoto = '../templates/events/'
+const urlPhoto = '../templates/'
 
 let event1 = new Event(
   'Wines During Specific Nights', 

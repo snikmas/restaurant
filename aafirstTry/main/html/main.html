@@ -1,49 +1,27 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <link rel="stylesheet" href="/css/menu.css">
+  <link rel="stylesheet" href="../css/general.css">
 
-  <link rel="stylesheet" href="/css/main-info.css">
-  <script src="https://kit.fontawesome.com/1072b393f2.js" crossorigin="anonymous"></script>
-
-  <!-- Montserrat -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap" rel="stylesheet">
-
-  <!-- Roboto -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
-
-<!-- Courgette -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
-
-  <!-- Poppins -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-
+  
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Restaurant</title>
 
-  <link rel="stylesheet" href="/css/general.css">
-  <link rel="stylesheet" href="/css/header.css">
-  <link rel="stylesheet" href="/css/events.css">
+  <link rel="stylesheet" href="../css/general.css">
+  <link rel="stylesheet" href="../css/header.css">
+  <link rel="stylesheet" href="/events/css/events.css">
 </head>
 <body>
   <div class="header-back">
+    <!-- need to transfer this header for other pages -->
     <header>
-          <img class='logo' src="/templates/logo.png">
+        <img class='logo' src="/main/templates/logo.png">
         <nav class="main">
           <ul>
             <li><a>HOME</a></li>
-            <li><a>MENU</a></li>
+            <li><a href="/menu/html/menu.html">MENU</a></li>
             <li><a>RESERVATION</a></li>
             <li><a>GALLERY</a></li>
             <li><a>ABOUT</a></li>
@@ -84,7 +62,7 @@
       </dev>
     </dev>
     <div class="img-div">
-      <img class="img" src="/templates/info-img.jpg">
+      <img class="img" src="../templates/info-img.jpg">
     </div>
   </dev>
 
@@ -150,9 +128,9 @@
     </div>
   </div>
 
-  <script type="module" src="/js/carousel-photo.js"></script>
-  <script type="module" src="/js/menu/dishes-data.js"></script>
-  <script type="module" src="/js/menu/menu.js"></script>
-  <script type="module" src="/js/events/carousel.js"></script>
+  <script type="module" src="../js/carousel-photo.js"></script>
+  <script type="module" src="/menu/js/dishes-data.js"></script>
+  <script type="module" src="/menu/js/menu.js"></script>
+  <script type="module" src="/events/js/carousel.js"></script>
 </body>
 </html>

@@ -1,0 +1,128 @@
+/* header */
+header {
+  position: fixed;
+
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  font-size: 20px;
+  font-family:Montserrat;
+  align-items: center;
+}
+
+.logo img {
+  width:5rem;
+}
+
+ul {
+  list-style: none;
+  display: flex;
+  column-gap: 1rem;
+}
+
+a {
+  color:white;
+  text-decoration: none;
+  margin: 12px;
+}
+
+a:hover {
+  color:#ec1d25;
+  transition: 0.4s;
+}
+
+
+/* welcome-display */
+.welcome-display {
+  color:white;
+
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.77) no-repeat;
+  background-size: cover;
+  height: 100vh;
+
+
+  -webkit-transition: background-image 1s;
+
+}
+
+.welcome-display-1 {
+  padding-top: 220px;
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+
+  text-align: center;
+}
+
+
+
+
+
+
+/* fonts */
+.welcome-text h2 {
+  font-family: Courgette;
+  font-size: 90px;
+  font-weight: 400;
+}
+
+.welcome-text h1 {
+  font-size: 85px;
+  letter-spacing: 4px;
+  font-family: Poppins;
+  line-height: 90px;
+  font-weight: 600;
+  
+}
+
+.welcome-text button {
+  font-family: Montserrat;
+  font-size: 19px;
+  font-weight: 400;
+  color:#ec1d25;
+  border-radius: 15px;
+  
+  margin-top: 60px;
+  padding:13px 20px;
+  
+}
+
+/* .welcome-text button:hover */
+.btn-menu:hover{ 
+  background-color: #ec1d25;
+  color:white;
+  transition: 0.3s;
+} 
+
+
+.welcome-display:hover .welcome-display-1 .arrow{
+  opacity: 0.3; 
+  color:white;
+  transition: 0.3s;
+} 
+
+
+
+.arrow {
+  height:fit-content;
+  align-self: center;
+  margin: 20px;
+  width:70px;
+  height:70px;
+  border: none;
+  border-radius: 35px;
+  opacity:0;
+  font-size: 20px;
+
+  background-color: rgba(0, 0, 0);
+  color:white;
+  
+}
+
+.arrow:hover{
+  opacity: 0.3;
+  transition: 0.4s;
+  background-color: #ec1d25;
+}

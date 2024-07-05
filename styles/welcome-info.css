@@ -1,0 +1,61 @@
+.welcome-info {
+  padding-top:140px;
+  padding-bottom:140px;
+  display: flex;
+  justify-content: space-evenly;
+
+  text-align: center;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+
+  width: 30%;
+}
+
+.welcome-info-img {
+  width: 25%;
+}
+
+
+.welcome-info-img img {
+  max-width: 100%;
+  border-radius: 10px;
+}
+
+/* fonts */
+.welcome-info h2 {
+  font-family: courgette;
+
+  color:#ec1d25;
+  font-size: 35px;
+  font-weight: 400;
+  line-height: 50px;
+}
+
+.welcome-info h1 {
+  font-family: poppins;
+  letter-spacing: 4px;
+  font-size: 50px;
+  line-height: 60px;
+  font-weight: 700;
+}
+
+.text {
+  font-family: montserrat;
+  margin-top: 40px;
+  font-size: 14px;
+  
+  letter-spacing: 1px;
+  line-height: 25px;
+}
+
+.text a {
+  display: inline-block;
+  color: black;
+  cursor:pointer;
+  clear: both;
+  margin-top: 50px;
+}

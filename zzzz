@@ -1,0 +1,26 @@
+    <header>
+        <img class='logo' src="/main/templates/logo.png">
+        <nav class="main">
+          <ul>
+            <li><a>HOME</a></li>
+            <li><a href="/menu/html/menu02.html">MENU</a></li>
+            <li><a>RESERVATION</a></li>
+            <li><a>GALLERY</a></li>
+            <li><a>ABOUT</a></li>
+            <li><a>BLOG</a></li>
+            <li><a>CONTACT</a></li>
+          </ul>
+        </nav>
+        <nav class="society">
+          <ul>
+            <li><a><i class="fa fa-tripadvisor"></i></a></li>
+            <li><a><i class="fa fa-facebook-f"></i></a></li>
+            <li><a><i class="fa fa-twitter"></i></a></li>
+            <li><a><i class="fas fa-bars"></i></a></li>
+          </ul>
+        </nav>
+      </nav>
+    </header>
+    //
+
+# need to learn how to manage files here
