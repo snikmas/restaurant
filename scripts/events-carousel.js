@@ -1,8 +1,10 @@
+import { events } from "./events"
+
 const eventsBackDoc = document.querySelector('.events-display')
 const imageUrl = 'assets/images/'
-const eventBack = [1, 2, 3, 4, 5]
+let currentEvent = event01;
+console.log(event01)
 
-let currentEvent = 1;
 
 eventsCarousel(currentEvent);
 

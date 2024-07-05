@@ -1,0 +1,8 @@
+.events-display {
+  -webkit-transition: background-image 1s;
+  background-blend-mode: darken;
+  background: rgba(0, 0, 0, 0.5) no-repeat;
+  height: 100vh;
+  border:2px salmon solid;
+  background-position-y: center;
+}
